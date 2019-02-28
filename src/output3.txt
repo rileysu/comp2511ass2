@@ -1,7 +1,0 @@
-8 nodes expanded
-cost = 73
-Ship Sydney to Honolulu
-Ship Honolulu to Sydney
-Ship Sydney to TelAviv
-Ship TelAviv to NewYork
-Ship NewYork to Shanghai
