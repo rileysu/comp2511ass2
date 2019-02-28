@@ -1,0 +1,9 @@
+25 nodes expanded
+cost = 130
+Ship Sydney to TelAviv
+Ship TelAviv to Shanghai
+Ship Shanghai to Honolulu
+Ship Honolulu to NewYork
+Ship NewYork to TelAviv
+Ship TelAviv to Sydney
+Ship Sydney to NewYork

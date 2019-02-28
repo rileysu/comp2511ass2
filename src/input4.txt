@@ -1,0 +1,52 @@
+# In this test a choice must be made between two initially good looking paths
+# TelAviv -> NewYork and Shanghai -> Honolulu
+# Only the top is worthwhile since there is another shipment below Shanghai
+# If the A* search compares states when paths contain the same shipments then this WILL NOT WORK
+
+JUNK COMMENT
+// BLAH
+# BLAH
+-- BLAH
+
+RANDOM SPACES
+
+--BEGIN--
+Refuelling 4 Sydney
+Refuelling 3 TelAviv
+Refuelling 5 NewYork
+Refuelling 6 Shanghai
+Refuelling 7 Honolulu
+Refuelling 6 Vancouver
+Refuelling 5 Manila
+
+Time 5 Sydney TelAviv
+Time 7 Sydney NewYork
+Time 5 Sydney Shanghai
+Time 7 Sydney Honolulu
+Time 10 Sydney Vancouver
+Time 11 Sydney Manila
+
+Time 5 TelAviv NewYork
+Time 7 TelAviv Shanghai
+Time 8 TelAviv Honolulu
+Time 16 TelAviv Vancouver
+Time 17 TelAviv Manila
+
+Time 8 NewYork Shanghai
+Time 9 NewYork Honolulu
+Time 17 NewYork Vancouver
+Time 18 NewYork Manila
+
+Time 5 Shanghai Honolulu
+Time 11 Shanghai Vancouver
+TIme 12 Shanghai Manila
+
+Time 12 Honolulu Vancouver
+Time 13 Honolulu Manila
+
+Time 5 Vancouver Manila
+
+Shipment TelAviv NewYork
+Shipment Shanghai Honolulu
+Shipment Vancouver Manila
+

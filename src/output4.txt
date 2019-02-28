@@ -1,0 +1,8 @@
+6 nodes expanded
+cost = 71
+Ship Sydney to TelAviv
+Ship TelAviv to NewYork
+Ship NewYork to Shanghai
+Ship Shanghai to Honolulu
+Ship Honolulu to Vancouver
+Ship Vancouver to Manila

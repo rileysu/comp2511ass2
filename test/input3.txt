@@ -1,0 +1,36 @@
+# This is the L test
+# This test will fail with a greedy first algorithm
+# Sydney -> Honolulu is more optimal first than other shipments even though it is further away
+
+JUNK COMMENT
+// BLAH
+# BLAH
+-- BLAH
+
+RANDOM SPACES
+
+--BEGIN--
+Refuelling 4 Sydney
+Refuelling 3 TelAviv
+Refuelling 5 NewYork
+Refuelling 6 Shanghai
+Refuelling 7 Honolulu
+
+Time 5 Sydney TelAviv
+Time 10 Sydney NewYork
+Time 15 Sydney Shanghai
+Time 8 Sydney Honolulu
+
+Time 11 TelAviv NewYork
+Time 15 TelAviv Shanghai
+Time 9 TelAviv Honolulu
+
+Time 18 NewYork Shanghai
+Time 12 NewYork Honolulu
+
+Time 7 Shanghai Honolulu
+
+Shipment Sydney TelAviv
+Shipment Sydney Honolulu
+Shipment TelAviv NewYork
+Shipment NewYork Shanghai
